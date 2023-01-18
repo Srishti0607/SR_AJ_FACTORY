@@ -1,0 +1,24 @@
+<div>Factory set up in Custom Module</div>
+<p>{{fact}}</p>
+<p>{{age}}</p>
+<br/>
+<b>Use Factory Example</b>
+<div>
+    <table class="table" border="1">
+        <thead>
+          <tr>
+            <th>Name</th>
+            <th>Category</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr *ngFor="let books of booksDet">
+            <td>{{books.name}}</td>
+            <td>{{books.category}}</td>
+          </tr>
+        </tbody>
+      </table>
+</div>
+<br/>
+<div>Existing Provider</div>
+<span>{{actorName}}</span>
